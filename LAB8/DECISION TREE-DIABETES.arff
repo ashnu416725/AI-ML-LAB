@@ -1,0 +1,28 @@
+@relation diabetes
+@attribute preg numeric
+@attribute plas numeric
+@attribute pres numeric
+@attribute skin numeric
+@attribute insu numeric
+@attribute mass real
+@attribute pedi real
+@attribute age numeric
+@attribute class{pos,neg}
+
+@data
+0,137,40,35,168,43.1,2.288,33,pos
+0,118,84,47,230,45.8,0.551,31,pos
+1,89,66,23,94,28.1,0.167,21,neg
+1,189,60,23,846,30,0.398,59,pos
+1,85,66,29,0,26.6,0.351,31,neg
+1,115,70,30,96,34.6,0.529,32,pos
+1,103,30,38,83,43.3,0.183,33,neg
+2,197,70,45,543,30.5,0.158,53,pos
+3,106,92,18,0,22.7,0.235,48,neg
+3,78,50,32,88,31,0.248,26,pos
+3,158,76,36,245,31.6,0.851,38,pos
+3,126,88,41,235,39.3,0.704,27,neg
+4,103,60,33,192,24,0.966,33,neg
+4,111,72,47,207,37.1,1.39,56,pos
+5,166,72,19,175,25.8,0.587,51,pos
+6,148,72,35,0,33.6,0.627,50,pos
