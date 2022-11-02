@@ -1,0 +1,26 @@
+@relation restaurant
+@attribute alt {T,F}
+@attribute bar {T,F}
+@attribute fri {T,F}
+@attribute hum {T,F}
+@attribute pat {None,Some,Full}
+@attribute price {$,$$,$$$}
+@attribute rain {T,F}
+@attribute res {T,F}
+@attribute type {Burger,French,Italian,Thai}
+@attribute est{0,10,30,60}
+@attribute target{T,F}
+
+@data
+T,F,F,T,Some,$$$,F,T,French,0,T
+T,F,F,T,Full,$,F,F,Thai,30,F
+F,T,F,F,Some,$,F,F,Burger,0,T
+T,F,T,T,Full,$,F,F,Thai,10,T
+T,F,T,F,Full,$$$,F,T,French,60,F
+F,T,F,T,Some,$$,T,T,Italian,0,T
+F,T,F,F,None,$,T,F,Burger,0,F
+F,F,F,T,Some,$$,T,T,Thai,0,T
+F,T,T,F,Full,$,T,F,Burger,60,F
+T,T,T,T,Full,$$$,F,T,Italian,10,F
+F,F,F,F,None,$,F,F,Thai,0,F
+T,T,T,T,Full,$,F,F,Burger,30,T
